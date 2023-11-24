@@ -6,7 +6,6 @@
     <meta name="description" content="Come try our best tasty coffee" />
     <meta name="author" content="Carlos Garcia" />
     <meta name="keywords" content="HTML, CSS" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -102,6 +101,7 @@
                   class="form__input"
                   type="text"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label class="form__label" for="guestinput">
@@ -131,7 +131,7 @@
                 />
               </label>
             </fieldset>
-            <button class="form__button">Book a table</button>
+            <button class="form__button" type="submit">Book a table</button>
             <label
               class="form__label form__label_type_checkbox"
               for="checkboxinput"
